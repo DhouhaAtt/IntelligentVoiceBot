@@ -1,0 +1,44 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey"],
+            "responses": ["Hello! How can I assist you?", "Hi there! How can I help you?", "Hey! What can I do for you today?"]
+        },
+        {
+            "tag": "exit",
+            "patterns": ["Goodbye", "See you later", "Bye"],
+            "responses": ["Goodbye! Have a great day!", "See you later! Take care!", "Bye! Come back soon!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Appreciate it"],
+            "responses": ["You're welcome!", "Glad I could help!", "No problem, happy to assist!"]
+        },
+        {
+            "tag": "options",
+            "patterns": ["What can you do?", "Tell me my options", "What are your abilities?"],
+            "responses": ["I can provide information, answer questions, and perform tasks. Feel free to ask me anything!"]
+        },
+        {
+            "tag": "create_note",
+            "patterns": ["Create a note", "Take a note", "Write this down"],
+            "responses": ["Sure, I've created a new note for you.", "Noted down! Your new note is saved."]
+        },
+        {
+            "tag": "add_todo",
+            "patterns": ["Add a todo", "Create a task", "New task"],
+            "responses": ["Task added to your to-do list.", "Got it! Your task is now in the to-do list."]
+        },
+        {
+            "tag": "show_todos",
+            "patterns": ["Show my tasks", "What's on my to-do list?", "List of tasks"],
+            "responses": ["Here are your tasks:", "Sure, here's your to-do list:"]
+        },
+        {
+            "tag": "unknown",
+            "patterns": ["*"],
+            "responses": ["I'm sorry, I don't understand that.", "I didn't get that. Can you please rephrase?", "I'm not sure what you mean."]
+        }
+    ]
+}
